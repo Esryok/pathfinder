@@ -1,0 +1,341 @@
+<head>
+    <meta charset="UTF-8">
+    <!-- InstanceBeginEditable name="docid" -->
+    <meta name="Description" content="pathfinder/calendar">
+    <!-- InstanceEndEditable -->
+    <link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre" rel="stylesheet">
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>Golarion Calendar v2</title>
+    <!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="head" -->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://dungeonetics.com/calendar/calendar_viewer.css" rel="stylesheet" type="text/css">
+    <!--<script src="https://dungeonetics.com/calendar/CustomCalendar.js"></script>
+    <script src="https://dungeonetics.com/calendar/CustomCalendarView.js"></script>
+    <script src="https://dungeonetics.com/calendar/golarion.js"></script>
+    <script src="https://dungeonetics.com/calendar/calendar_viewer.js"></script>-->
+    <!-- InstanceEndEditable -->
+    <style>
+        .day_activity {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            overflow: auto;
+        }
+        .day_activity ul {
+            font-size: .75em;
+            padding-top: 1em;
+            padding-left: 2em;
+        }
+    </style>
+</head>
+<div id="monthly_calendar" class="large_calendar">
+    <div class="ccal_calendar" id="largecal_6jn164u4t56303h_month_4v1q13p68m77c" data-xid="4v1q13p68m77c">
+        <div class="ccal_calendar_row ccal_month_header">Gozran<span class="calendar_year">, 4709 AR</span></div>
+        <div class="ccal_day ccal_day_name ccal_day_row_start">Moonday</div>
+        <div class="ccal_day ccal_day_name">Toilday</div>
+        <div class="ccal_day ccal_day_name">Wealday</div>
+        <div class="ccal_day ccal_day_name">Oathday</div>
+        <div class="ccal_day ccal_day_name">Fireday</div>
+        <div class="ccal_day ccal_day_name">Starday</div>
+        <div class="ccal_day ccal_day_name ccal_day_row_end">Sunday</div>
+        <div id="cal_6jn164u4t56303h_day_1719096" class="ccal_day ccal_day_num ccal_day_row_start ccal_day_prev_month">
+            <div class="ccal_day_number day_cell">29</div>
+            <div class="day_event day_cell"></div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719097" class="ccal_day ccal_day_num ccal_day_prev_month">
+            <div class="ccal_day_number day_cell">30</div>
+            <div class="day_event day_cell"></div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719098" class="ccal_day ccal_day_num ccal_day_prev_month">
+            <div class="ccal_day_number day_cell">31</div>
+            <div class="day_event day_cell"></div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719099" class="ccal_day ccal_day_num">
+            <div class="ccal_day_number day_cell">1</div>
+            <div class="day_event day_cell"></div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719100" class="ccal_day ccal_day_num">
+            <div class="ccal_day_number day_cell">2</div>
+            <div class="day_event day_cell"></div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719101" class="ccal_day ccal_day_num">
+            <div class="ccal_day_number day_cell">3</div>
+            <div class="day_activity"><ul>
+                <li>Recruited by Rell to cause a trade venture to fail</li>
+                <li>Party explores Ur-Zelshabbar, replace caravaneers Nusrat and Jasin</li>
+            </ul></div>
+            <div class="ccal_event_group ccal_moon_phase_event_group">
+                <div class="ccal_event ccal_moon_phase_event"><canvas width="18px" height="18px"
+                        title="Somal first quarter">Somal first quarter</canvas><span class="ccal_moon_phase">Somal
+                        first quarter</span></div>
+            </div>
+            <div class="day_event day_cell"></div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719102" class="ccal_day ccal_day_num ccal_day_row_end">
+            <div class="ccal_day_number day_cell">4</div>
+            <div class="day_activity"><ul>
+                <li>Caravan departs Ur-Zelshabbar</li>
+            </ul></div>
+            <div class="day_event day_cell"></div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719103" class="ccal_day ccal_day_num ccal_day_row_start">
+            <div class="ccal_day_number day_cell">5</div>
+            <div class="day_event day_cell"></div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719104" class="ccal_day ccal_day_num">
+            <div class="ccal_day_number day_cell">6</div>
+            <div class="day_event day_cell"></div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719105" class="ccal_day ccal_day_num">
+            <div class="ccal_day_number day_cell">7</div>
+            <div class="day_event day_cell">
+                <div class="ccal_event_group ccal_holiday_event_group">
+                    <div class="ccal_event ccal_holiday_event">
+                        <div title="Currentseve
+Holiday category: Religious
+Observed by: Gozreh" class="ccal_event_holiday ccal_event_category_Religious ccal_holiday_observedby_Gozreh">
+                            Currentseve<span class="ccal_holiday_observedby">—Gozreh</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719106" class="ccal_day ccal_day_num">
+            <div class="ccal_day_number day_cell">8</div>
+            <div class="day_activity"><ul>
+                <li>Party strikes bargain with Roc</li>
+            </ul></div>
+            <div class="day_event day_cell"></div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719107" class="ccal_day ccal_day_num">
+            <div class="ccal_day_number day_cell">9</div>
+            <div class="day_activity"><ul>
+                <li>Roc kills Gharam</li>
+            </ul></div>
+            <div class="day_event day_cell"></div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719108" class="ccal_day ccal_day_num">
+            <div class="ccal_day_number day_cell">10</div>
+            <div class="day_activity"><ul>
+                <li>Party foments distrust between caravaneers and Horse Lords</li>
+            </ul></div>
+            <div class="day_event day_cell"></div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719109" class="ccal_day ccal_day_num ccal_day_row_end">
+            <div class="ccal_day_number day_cell">11</div>
+            <div class="ccal_event_group ccal_moon_phase_event_group">
+                <div class="ccal_event ccal_moon_phase_event"><canvas width="18px" height="18px"
+                        title="Somal full moon">Somal full moon</canvas><span class="ccal_moon_phase">Somal full
+                        moon</span></div>
+            </div>
+            <div class="day_event day_cell">
+                <div class="ccal_event_group ccal_first_full_event_group">
+                    <div class="ccal_event ccal_first_full_event">Flood Moon</div>
+                </div>
+            </div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719110" class="ccal_day ccal_day_num ccal_day_row_start">
+            <div class="ccal_day_number day_cell">12</div>
+            <div class="day_activity"><ul>
+                <li>Party lures Mattis into the wilderness, where Lamias beat him into a coma</li>
+                <li>Party coaxes a Rabisu into attacking the caravan</li>
+            </ul></div>
+            <div class="day_event day_cell"></div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719111" class="ccal_day ccal_day_num">
+            <div class="ccal_day_number day_cell">13</div>
+            <div class="day_activity"><ul>
+                <li>Party attacks and destroys the caravan</li>
+                <li>Party is teleported to the Taldan city of Yanmass to debrief</li>
+                <li>Count Valenis attempts to steal the goods looted from the caravan, gets scolded by Rell</li>
+            </ul></div>
+            <div class="day_event day_cell"></div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719112" class="ccal_day ccal_day_num">
+            <div class="ccal_day_number day_cell">14</div>
+            <div class="day_activity"><ul>
+                <li>Rell recruits us to dismantle a cell of insurgents in the occupied Qadiran city of Katheer</li>
+            </ul></div>
+            <div class="day_event day_cell"></div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719113" class="ccal_day ccal_day_num">
+            <div class="ccal_day_number day_cell">15</div>
+            <div class="day_activity"><ul>
+                <li>Party explores Katheer, and catch the eye of the insurgent Isra'il</li>
+            </ul></div>
+            <div class="day_event day_cell">
+                <div class="ccal_event_group ccal_holiday_event_group">
+                    <div class="ccal_event ccal_holiday_event">
+                        <div title="Taxfest
+Holiday category: Religious
+Observed by: Abadar, Brigh"
+                            class="ccal_event_holiday ccal_event_category_Religious ccal_holiday_observedby_Abadar, Brigh">
+                            Taxfest<span class="ccal_holiday_observedby">—Abadar, Brigh</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719114" class="ccal_day ccal_day_num">
+            <div class="ccal_day_number day_cell">16</div>
+            <div class="day_activity"><ul>
+                <li>Party is formally recruited into the "Sunflowers" (cell S) under Haemah</li>
+            </ul></div>
+            <div class="day_event day_cell">
+                <div class="ccal_event_group ccal_holiday_event_group">
+                    <div class="ccal_event ccal_holiday_event">
+                        <div title="Wrights of Augustana Begins
+Holiday category: Local
+Observed by: Augustana (Andoran) Brigh"
+                            class="ccal_event_holiday ccal_event_category_Local ccal_holiday_observedby_Augustana (Andoran) Brigh">
+                            Wrights of Augustana Begins<span class="ccal_holiday_observedby">—Augustana (Andoran)
+                                Brigh</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719115" class="ccal_day ccal_day_num">
+            <div class="ccal_day_number day_cell">17</div>
+            <div class="day_activity"><ul>
+                <li>Party smuggles weapons for the Sunflowers</li>
+            </ul></div>
+            <div class="day_event day_cell"></div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719116" class="ccal_day ccal_day_num ccal_day_row_end">
+            <div class="ccal_day_number day_cell">18</div>
+            <div class="day_activity"><ul>
+                <li>Party derails the assassination of a competent Taldan officer</li>
+                <li>Party sends the assassin Makkiyah to Rell</li>
+                <li>Rell orders us to investigate the "Silver Cat"</li>
+            </ul></div>
+            <div class="ccal_event_group ccal_moon_phase_event_group">
+                <div class="ccal_event ccal_moon_phase_event"><canvas width="18px" height="18px"
+                        title="Somal last quarter">Somal last quarter</canvas><span class="ccal_moon_phase">Somal last
+                        quarter</span></div>
+            </div>
+            <div class="day_event day_cell"></div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719117" class="ccal_day ccal_day_num ccal_day_row_start">
+            <div class="ccal_day_number day_cell">19</div>
+            <div class="day_activity"><ul>
+                <li>Party witnesses Lion Blade-style assassination of two Taldan officers</li>
+                <li>Party stands guard for Haemah during a meeting</li>
+            </ul></div>
+            <div class="day_event day_cell"></div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719118" class="ccal_day ccal_day_num">
+            <div class="ccal_day_number day_cell">20</div>
+            <div class="day_activity"><ul>
+                <li>Party explores an underground tunnel, crossing paths with Ripione</li>
+                <li>Party stumbles over a rebel hideout (cell Z) and kills everyone</li>
+            </ul></div>
+            <div class="day_event day_cell"></div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719119" class="ccal_day ccal_day_num">
+            <div class="ccal_day_number day_cell">21</div>
+            <div class="day_activity"><ul>
+                <li>Party lurks in cell Z to ambush a straggler, who is turned over to Rell</li>
+            </ul></div>
+            <div class="day_event day_cell"></div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719120" class="ccal_day ccal_day_num">
+            <div class="ccal_day_number day_cell">22</div>
+            <div class="day_activity"><ul>
+                <li>Rebels escalate with a flurry of 12 assassinated Taldan officers</li>
+                <li>Rell instructs us to work openly with Governor-General Velkin and get more info quickly</li>
+                <li>Party dismantles the Sunflowers</li>
+                <li>Party abducts the "Lioness", who turns out to be Charmed</li>
+            </ul></div>
+            <div class="day_event day_cell"></div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719121" class="ccal_day ccal_day_num">
+            <div class="ccal_day_number day_cell">23</div>
+            <div class="day_activity"><ul>
+                <li>Party uncovers part of cell L and learns Ripione is a cultmaster</li>
+                <li>Rell tells us the rebels have something big in mind and instructs us to find out what</li>
+                <li>Party recruits students to scry on Ripione, who kills them</li>
+                <li>Ripione warns us to back off</li>
+            </ul></div>
+            <div class="day_event day_cell"></div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719122" class="ccal_day ccal_day_num">
+            <div class="ccal_day_number day_cell">24</div>
+            <div class="day_activity"><ul>
+                <li>Party hunts Ripione, who escapes after a brief fight</li>
+                <li>Party dismantles cell T</li>
+            </ul></div>
+            <div class="day_event day_cell"></div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719123" class="ccal_day ccal_day_num ccal_day_row_end">
+            <div class="ccal_day_number day_cell">25</div>
+            <div class="ccal_event_group ccal_moon_phase_event_group">
+                <div class="ccal_event ccal_moon_phase_event"><canvas width="18px" height="18px"
+                        title="Somal new moon">Somal new moon</canvas><span class="ccal_moon_phase">Somal new
+                        moon</span></div>
+            </div>
+            <div class="day_event day_cell"></div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719124" class="ccal_day ccal_day_num ccal_day_row_start ccal_day_last_row">
+            <div class="ccal_day_number day_cell">26</div>
+            <div class="day_event day_cell"></div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719125" class="ccal_day ccal_day_num ccal_day_last_row">
+            <div class="ccal_day_number day_cell">27</div>
+            <div class="day_event day_cell">
+                <div class="ccal_event_group ccal_holiday_event_group">
+                    <div class="ccal_event ccal_holiday_event">
+                        <div title="Gala of Sails
+Holiday category: Regional
+Observed by: Absalom" class="ccal_event_holiday ccal_event_category_Regional ccal_holiday_observedby_Absalom">Gala of
+                            Sails<span class="ccal_holiday_observedby">—Absalom</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719126" class="ccal_day ccal_day_num ccal_day_last_row">
+            <div class="ccal_day_number day_cell">28</div>
+            <div class="day_event day_cell"></div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719127" class="ccal_day ccal_day_num ccal_day_last_row">
+            <div class="ccal_day_number day_cell">29</div>
+            <div class="day_event day_cell"></div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719128" class="ccal_day ccal_day_num ccal_day_last_row">
+            <div class="ccal_day_number day_cell">30</div>
+            <div class="day_event day_cell">
+                <div class="ccal_event_group ccal_holiday_event_group">
+                    <div class="ccal_event ccal_holiday_event">
+                        <div title="Wrights of Augustana Ends
+Holiday category: Local
+Observed by: Augustana (Andoran)"
+                            class="ccal_event_holiday ccal_event_category_Local ccal_holiday_observedby_Augustana (Andoran)">
+                            Wrights of Augustana Ends<span class="ccal_holiday_observedby">—Augustana (Andoran)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719129" class="ccal_day ccal_day_num ccal_day_next_month ccal_day_last_row">
+            <div class="ccal_day_number day_cell">1</div>
+            <div class="day_event day_cell"></div>
+        </div>
+        <div id="cal_6jn164u4t56303h_day_1719130"
+            class="ccal_day ccal_day_num ccal_day_row_end ccal_day_next_month ccal_day_last_row">
+            <div class="ccal_day_number day_cell">2</div>
+            <div class="day_event day_cell">
+                <div class="ccal_event_group ccal_holiday_event_group">
+                    <div class="ccal_event ccal_holiday_event">
+                        <div title="Ascendance Day
+Holiday category: Religious
+Observed by: Norgorber" class="ccal_event_holiday ccal_event_category_Religious ccal_holiday_observedby_Norgorber">
+                            Ascendance Day<span class="ccal_holiday_observedby">—Norgorber</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
